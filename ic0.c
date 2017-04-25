@@ -116,7 +116,6 @@ errout:
 
 int main(int argc, char **argv)
 {
-	int r = 0;
 	char dest_file[PATH_MAX] = { 0 };
 	enum churn_result cr = CHURN_MISS;
 	bool first_inode_initialized = false;
